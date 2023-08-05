@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { getRandomHexColor } from '../randomColor';
 
 export const WrapperCard = styled.section`
   display: flex;
@@ -10,7 +11,7 @@ export const WrapperCard = styled.section`
   width: 380px;
   height: 200px;
   gap: 10px;
-  cursor: pointer;
+
   background: #f5d7f0;
   border: 1px solid transparent;
   border-radius: 8px;
@@ -37,10 +38,15 @@ export const Item = styled.li`
     justify-content: center;
     text-align: center;
     gap: 6px;
-
-    background-color: #fff;
+    background: ${getRandomHexColor()};
     padding: 4px;
     border-radius: 8px;
     width: 60px;
     height: 60px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: box-shadow 0.3s;
+      &:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
 `;
