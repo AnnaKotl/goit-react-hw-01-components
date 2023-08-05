@@ -1,18 +1,21 @@
+import { StatsWrapper } from './styles/ProfileCard.styled.js';
+import { Numb } from './styles/ProfileCard.styled.js';
+
 export const ProfileCard = ({ userStats: { followers, views, likes } }) => {
   return (
-    <ul>
+    <StatsWrapper>
       <li>
         <span>Followers: </span>
-        <span>{followers}</span>
+        <Numb>{followers}</Numb>
       </li>
       <li>
         <span>Views: </span>
-        <span>{views}</span>
+        <Numb>{views}</Numb>
       </li>
       <li>
         <span>Likes: </span>
-        <span>{likes}</span>
+        <Numb>{likes}</Numb>
       </li>
-    </ul>
+    </StatsWrapper>
   );
 };

@@ -1,16 +1,19 @@
 import { StatisticsList } from "./StatisticsList";
+import { WrapperCard } from "./styles/Statistics.styled";
+import { List } from "./styles/Statistics.styled";
+import { Item } from "./styles/Statistics.styled";
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <section>
+    <WrapperCard>
       {title && <h2>{title}</h2>}
-      <ul>
+      <List>
         {stats.map(statsItems => (
-          <li key={statsItems.id}>
+          <Item key={statsItems.id}>
             <StatisticsList statsItems={statsItems} />
-          </li>
+          </Item>
         ))}
-      </ul>
-    </section>
+      </List>
+    </WrapperCard>
   );
 };
