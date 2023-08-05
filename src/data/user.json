@@ -1,0 +1,12 @@
+{
+  "id": "1",
+  "username": "Jacques Gluke",
+  "tag": "jgluke",
+  "location": "Ocho Rios, Jamaica",
+  "avatar": "https://www.edu.goit.global/_next/image?url=%2Fimages%2Fuser-avatar.svg&w=64&q=75",
+  "stats": {
+    "followers": 5603,
+    "views": 4827,
+    "likes": 1308
+  }
+}
