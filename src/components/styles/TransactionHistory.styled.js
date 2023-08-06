@@ -28,10 +28,3 @@ export const TableTh = styled.th`
   font-size: 20px;
   text-align: center;
 `;
-
-export const TableTd = styled.td`
-  padding: 10px 20px;
-  font-size: 16px;
-  text-align: center;
-  border: 1px solid #e0e0e0;
-`;

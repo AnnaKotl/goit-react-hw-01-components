@@ -1,5 +1,5 @@
 import { TransactionItem } from './TransactionItem';
-import { Wrapper, Table, TableTh, TableTd } from './styles/TransactionHistory.styled';
+import { Wrapper, Table, TableTh } from './styles/TransactionHistory.styled';
 
 export const TransactionHistory = ({ items }) => {
   return (
