@@ -11,5 +11,4 @@ export const Items = styled.div`
 export const Item = styled.span`
     padding-top: 5px;
   font-weight: bold;
-  
 `;

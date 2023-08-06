@@ -4,16 +4,14 @@ export const WrapperCard = styled.div`
   margin: 20px auto 0;
   width: 880px;
   height: 200px;
-  /* cursor: pointer; */
   background: #f5d7f0;
   border: 1px solid transparent;
   border-radius: 8px;
-  transition: border-color 0.3s, transform 0.2s;
+  transition: border-color 0.3s;
 
   &:hover {
     border-color: #ebc5e4;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);;
   }
 `;
 
