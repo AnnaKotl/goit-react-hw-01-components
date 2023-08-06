@@ -50,3 +50,7 @@ export const Item = styled.li`
     transform: scale(1.05);
   }
 `;
+
+export const Title = styled.h2`
+  text-transform: uppercase;
+`;

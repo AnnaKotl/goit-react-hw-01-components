@@ -27,4 +27,6 @@ export const TableTh = styled.th`
   padding: 10px 20px;
   font-size: 20px;
   text-align: center;
+  border: 2px solid #e0e0e0;
 `;
+
