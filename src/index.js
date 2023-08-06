@@ -3,18 +3,17 @@ import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import { ThemeProvider } from 'styled-components';
 
-const mainTheme = {
+const theme = {
   colors: {
-    deepOrange: '#FFA500',
-    warmOrange: '#FFCC00',
-    peach: '#FFDAB9',
-    terracotta: '#E2725B',
+    online: '#8ff018',
+    offline: '#f0182e',
+    default: '#ebc5e4',
   }
 };
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ThemeProvider theme={mainTheme}>
+    <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
   </React.StrictMode>

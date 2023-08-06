@@ -1,15 +1,17 @@
 import { FriendListItem } from "./FriendListItem";
+import { WrapperCard } from './styles/FriendList.styled';
+import { List } from './styles/FriendList.styled';
 
 export const FriendList = ({friends}) => {
     return (
-        <div>
-            <ul>
+        <WrapperCard>
+            <List>
                 {friends.map(friend => (
                     <li key={friend.id}>
                         <FriendListItem friend={friend}/>
                     </li>
                 ))}
-            </ul>
-        </div>
+            </List>
+        </WrapperCard>
     );
 };
