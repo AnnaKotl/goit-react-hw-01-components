@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
   &:hover {
     border-color: #ebc5e4;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    bgc
   }
 `;
 
